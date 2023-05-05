@@ -1,0 +1,34 @@
+// Variables
+$tabla-fondo: #a0c7ec;
+$tabla-borde: 1px solid #000000;
+$tabla-borde-cabecera: 1px solid #000000;
+$tabla-color-cabecera: #05486e;
+$color-fuente-cabecera:#ffffff;
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: $tabla-fondo;
+    border: $tabla-borde;
+ }
+
+ // Estilos para la cabecera de la tabla
+th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: justify;
+    border: $tabla-borde-cabecera;
+    background-color: $tabla-color-cabecera;
+    color: $color-fuente-cabecera;
+  }
+
+  // Estilos para las celdas de la tabla
+td {
+    padding: 10px;
+    border: $tabla-borde;
+  }
+  
+.mat-form-field {
+    font-size: 20px;
+    width: 100%;
+ }
